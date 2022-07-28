@@ -34,6 +34,8 @@
     
     text = "Na nga def ?" 
     print(predict_language(text))
+    
+    >>> wolof
  ```
 
 ##### meth 2
@@ -43,6 +45,8 @@
     text = "I'm not really into the birthday thing honestly but I admit this was a really chill"
     var = !python model/language_identifier.py $text 
     print(var[-1])
+    
+    >>> english
 ```
 
 - 💪 Model performance: Here are the results obtained after training the model
