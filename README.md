@@ -12,11 +12,14 @@
 - You can fin the **`model`** and the **`vectorizer`** in the **`/model`** directory. (you can also fin the **`python script`**)
 - Here are TWO ways to use the trained model in notebook: (You must before installing the requirements)
 
-      !pip install pickle sys pandas
+```py
+    !pip install pickle sys pandas
+```
 
 ##### meth 1
 > via model and vectorizer import
 
+```py
     import pickle
     import pandas as pd
 
@@ -28,14 +31,19 @@
         serie = pd.Series(text)
         vector = SVM_vectorizer.transform(serie)
         return str(SVM_model.predict(vector)[0])
+    
+    text = "Na nga def ?" 
+    print(predict_language(text))
+ ```
 
 ##### meth 2
 > by calling a python script that does all the work for us
 
+```py
     text = "I'm not really into the birthday thing honestly but I admit this was a really chill"
     var = !python model/language_identifier.py $text 
     print(var[-1])
-
+```
 
 - 💪 Model performance: Here are the results obtained after training the model
 
@@ -49,3 +57,6 @@
 - 📫 Feel free to contact me if anything is wrong or if anything needs to be changed 😎!  **labrijisaad@gmail.com**
 
 <a href="https://colab.research.google.com/github/labrijisaad/Language-Identifier-SVM" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+> - 🙌 Notebook made by [@labriji_saad](https://github.com/labrijisaad)
+> - 🔗 Linledin [@labriji_saad](https://www.linkedin.com/in/labrijisaad/)
