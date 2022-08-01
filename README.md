@@ -10,8 +10,8 @@
 
 <br>
 
-- You can fin the **`model`** and the **`vectorizer`** in the **`/model`** directory. (you can also fin the **`python script`**)
-- Here are TWO ways to use the trained model in notebook: (You must before installing the requirements)
+- You can fin the **`model`** and the **`vectorizer`** in the **`/model`** directory. (you can also fin the **`python script`**: will be used in **`meth2`**)
+- Here are **TWO** ways to use the trained model in notebook: (You must before install the requirements)
 
 ```py
     !pip install pickle sys pandas
@@ -40,7 +40,9 @@
  ```
 
 ##### meth 2
-> by calling a python script that does all the work for us
+> by calling a 
+
+script that does all the work for us
 
 ```py
     text = "I'm not really into the birthday thing honestly but I admit this was a really chill"
