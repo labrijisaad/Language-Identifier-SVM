@@ -5,7 +5,8 @@
 
 - 🎯 In this notebook, I tried to write a script capable of idenetifying the language used in a text. 
 - 🛠️ The supported languages are:  **`Swahili`**, **`Wolof`**, **`French`**, **`English`**, **`Arabic`** and **`Dyula`**.
-> The code in this notebook can easily be modified to add or modify the languages ​​you want to detect: if you want to add other languages, just add a training dataset on the targeted languages, this dataset can be found by example on [HuggingFace Datesets](https://huggingface.co/datasets?sort=downloads).
+- ⚠️ In order to have precise results, _`the sentence you provide to the script must be relatively long`_ (contains at least **4**/**5** words).
+> The code in this notebook can easily be modified to add or modify the languages you want to detect: if you want to add other languages, just add a training dataset on the targeted languages, this dataset can be found by example on [HuggingFace Datesets](https://huggingface.co/datasets?sort=downloads).
 
 <br>
 
