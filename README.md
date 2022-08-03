@@ -40,9 +40,7 @@
  ```
 
 ##### meth 2
-> by calling a 
-
-script that does all the work for us
+> by calling a script that does all the work for us
 
 ```py
     text = "I'm not really into the birthday thing honestly but I admit this was a really chill"
