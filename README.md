@@ -10,7 +10,7 @@
 
 <br>
 
-- You can fin the **`model`** and the **`vectorizer`** in the **`/model`** directory. (you can also fin the **`python script`**: will be used in **`meth2`**)
+- You can find the **`model`** and the **`vectorizer`** in the **`/model`** directory. (you can also fin the **`python script`**: will be used in **`meth2`**)
 - Here are **TWO** ways to use the trained model in notebook: (You must before install the requirements)
 
 ```py
