@@ -1,4 +1,4 @@
-# 📙 `Language-Identifier with SVM in python` 🐍:
+# 📙 `Language-Identifier with SVM in python` 🐍
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74627083/181483400-7c02cb91-512f-48b4-b1fb-577148639791.png" />
 </p>
