@@ -3,10 +3,9 @@
   <img src="https://user-images.githubusercontent.com/74627083/181483400-7c02cb91-512f-48b4-b1fb-577148639791.png" />
 </p>
 
-- 🎯 In this notebook, I tried to write a script capable of identifying the language used in a text. 
-- 🛠️ The supported languages are:  **`Swahili`**, **`Wolof`**, **`French`**, **`English`**, **`Arabic`** and **`Dyula`**.
-- ⚠️ In order to have precise results, _`the sentence you provide to the script must be relatively long`_ (contains at least **4**/**5** words).
-> The code in this notebook can easily be modified to add or modify the languages you want to detect: if you want to add other languages, just add a training dataset on the targeted languages, this dataset can be found by example on [HuggingFace Datesets](https://huggingface.co/datasets?sort=downloads).
+- 🎯 In this project, I developed a script that can identify the language used in a given text. 
+- 🛠️ The script currently supports the following languages: **`Swahili`**, **`Wolof`**, **`French`**, **`English`**, **`Arabic`** and **`Dyula`**.
+- ⚠️ To obtain accurate results, the input text should be relatively long (at least 4-5 words). The script can be easily modified to add or modify the supported languages by adding a training dataset for the desired language, this dataset can be found by example on [HuggingFace Datesets](https://huggingface.co/datasets?sort=downloads).
 
 <br>
 
@@ -58,6 +57,8 @@
       english:  {'precision': 0.9683195592286501, 'recall': 0.9736842105263158, 'f1-score': 0.9709944751381215, 'support': 722}
       arabic:  {'precision': 0.9363354037267081, 'recall': 0.9741518578352181, 'f1-score': 0.9548693586698337, 'support': 619}
       dyula:  {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 691}
+      
+ > - Overall, it the SVM model is performing very well for all the languages, with high values for all performance metrics.
 
 - 📫 Feel free to contact me if anything is wrong or if anything needs to be changed 😎!  **labrijisaad@gmail.com**
 
